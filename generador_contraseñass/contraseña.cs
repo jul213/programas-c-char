@@ -11,7 +11,6 @@ public static Contraseña {
 
     public string generarContraseña(int longitud){
         
-        string contraseña = new StringBuilder(longitud);
         if (longitud<=0){
 
             throw new ArgumentException("la longitud tiene ser mayor que 0");
@@ -33,9 +32,14 @@ public static Contraseña {
 
             case UsarSimbolos:
             caracteres.addRange("!@#$%^&*()_-+=[]{}|;:,.<>?".Select(c => ToString()));
+            break;
+        }
+        if (caracteres.Count == 0){
+            throw new InvalidOperationException("debe seleccionar al menos un modo de caracteres");
         }
 
-        
+
+        var contraseña = new stringBuilder(CaracteresObligatorios);
         using (const rng = new RNGCryptoServiceProveider){ 
         
 
