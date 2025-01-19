@@ -13,7 +13,7 @@ class Program {
         Contraseña.UsarSimbolos = false;
         Contraseña.CaracteresObligatorios = "AB20";
 
-        String contraseñaGenerada = contra.generarContraseña(longitud);
+        String contraseñaGenerada = Contraseña.generarContraseña(longitud);
         Console.WriteLine($"la contraseña generada es: {contraseñaGenerada}");
 
         Console.ReadKey();
