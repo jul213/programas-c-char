@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace notas;
 
 
-public class HelloWorld
+public class Notas
 {
     
     private List<double> lista = new List<double>();

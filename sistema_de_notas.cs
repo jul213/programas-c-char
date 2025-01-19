@@ -1,13 +1,12 @@
 using System;
-using System.Collections.Generic;
 using notas;
 
     
-public class program{
+public class Program{
     
     public static void Main(string[] args)
     {
-        HelloWorld notas = new HelloWorld();
+        Notas notas = new Notas();
         int numGrades;
         Console.WriteLine("cuantos notas quiere que tenga el sistema?: ");
         
