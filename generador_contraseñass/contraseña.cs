@@ -47,7 +47,7 @@ public static Contraseña {
         
 
         Byte[] randomNumber= new Byte[1]; 
-        for (i=0;i<longitud;i++){
+        while (contraseña.Length < longitud){
             rng.GetBytes(randomNumber);
             int indice = randomNumber[0] % caracteres.Length;
             contraseña.Append(caracteres[indice]);
