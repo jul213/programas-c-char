@@ -3,6 +3,9 @@ using System;
 using System.Security.Cryptography;
 public static Contraseña {
 
+    public static bool UsarMayusculas {get; set;} = true;
+    public static bool UsarMinusculas {get; set;} = true;
+
     public String generarContraseña(int longitud){
         
         String contraseña = new StringBuilder(longitud);
