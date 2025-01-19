@@ -20,7 +20,12 @@ public static Contraseña {
         switch (caracteres) {
 
             case UsarMinusculas:
-            caracteres.addRange("abcdefghijklmnopqrstuvwxyz".Select(c => c.ToString()))
+            caracteres.addRange("abcdefghijklmnopqrstuvwxyz".Select(c => c.ToString()));
+            break;
+            
+            case UsarMayusculas:
+            caracteres.addRange("ABCDEFGHIJKLMNOPQRSTUVWXYZ".Select(c => c.ToString()));
+            break;
         }
 
         
