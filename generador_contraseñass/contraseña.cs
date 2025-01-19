@@ -19,24 +19,22 @@ public static Contraseña {
             throw new ArgumentException("la longitud tiene ser mayor que 0");
         } else { 
         var caracteres = new List<string>();
-        switch (caracteres) {
+        
 
-            case UsarMinusculas:
+            if (UsarMinusculas)
             caracteres.addRange("abcdefghijklmnopqrstuvwxyz".Select(c => c.ToString()));
-            break;
+           
             
-            case UsarMayusculas:
+            if (UsarMayusculas)
             caracteres.addRange("ABCDEFGHIJKLMNOPQRSTUVWXYZ".Select(c => c.ToString()));
-            break;
-
-            case UsarNumeros:
+            
+            if (UsarNumeros)
             caracteres.addRange("0123456789".Select(c => ToString()));
-            break;
+           
 
-            case UsarSimbolos:
+            if (UsarSimbolos)
             caracteres.addRange("!@#$%^&*()_-+=[]{}|;:,.<>?".Select(c => ToString()));
-            break;
-        }
+            
         if (caracteres.Count == 0){
             throw new InvalidOperationException("debe seleccionar al menos un modo de caracteres");
         }
