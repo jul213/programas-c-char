@@ -1,4 +1,4 @@
-
+namespace contra;
 public static Contraseña {
 
     public String generarContraseña(int longitud){
