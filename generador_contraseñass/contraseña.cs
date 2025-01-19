@@ -26,6 +26,13 @@ public static Contraseña {
             case UsarMayusculas:
             caracteres.addRange("ABCDEFGHIJKLMNOPQRSTUVWXYZ".Select(c => c.ToString()));
             break;
+
+            case UsarNumeros:
+            caracteres.addRange("0123456789".Select(c => ToString()));
+            break;
+
+            case UsarSimbolos:
+            caracteres.addRange("!@#$%^&*()_-+=[]{}|;:,.<>?".Select(c => ToString()));
         }
 
         
