@@ -1,4 +1,5 @@
 using contra;
+using System;
 
 public static void main(String []args){
     Console.WriteLine("bienvenido al generador de contraseñas");
