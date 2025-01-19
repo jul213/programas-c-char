@@ -1,6 +1,9 @@
 namespace contra;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
+using System.Text;
 public static Contraseña {
 
     public static bool UsarMayusculas {get; set;} = true;
