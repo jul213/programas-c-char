@@ -16,6 +16,8 @@ class Program {
         String contraseñaGenerada = Contraseña.generarContraseña(longitud);
         Console.WriteLine($"la contraseña generada es: {contraseñaGenerada}");
 
+        Historial.AgregarContraseña(contraseñaGenerada);
+
 
         Console.WriteLine("presiona cualquier tecla para salir");
         Console.ReadKey();
