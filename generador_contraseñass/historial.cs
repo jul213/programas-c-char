@@ -23,6 +23,9 @@ class Historial {
       historial.Clear();
     }
 
+    public static void EliminarContraseña(){
+      
+  }
   }
 
 }
