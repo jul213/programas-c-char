@@ -12,6 +12,13 @@ class Historial {
       historial.Add(contraseña);
     }
 
+    public static List<string> ObtenerHistorial(){
+
+      return new List<string>(historial)
+    }
+
+    public static void LimpiarHistorial(){}
+
   }
 
 }
