@@ -24,7 +24,7 @@ class Historial {
     }
 
     public static void EliminarContraseña(string contraseña){
-      
+      historial.Remove(contraseña);
   }
   }
 
