@@ -23,7 +23,7 @@ class Historial {
       historial.Clear();
     }
 
-    public static void EliminarContraseña(){
+    public static void EliminarContraseña(string contraseña){
       
   }
   }
