@@ -1,6 +1,6 @@
 using contra;
 using System;
-
+using historial;
 class Program { 
     public static void main(String []args){
         Console.WriteLine("bienvenido al generador de contraseñas");
