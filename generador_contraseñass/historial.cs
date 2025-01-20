@@ -1,4 +1,5 @@
-
+using System.Linq;
+using System.Collections.Generic;
 using System;
 
 class Historial {
@@ -18,7 +19,7 @@ class Historial {
     }
 
     public static void LimpiarHistorial(){
-      
+
       historial.Clear();
     }
 
