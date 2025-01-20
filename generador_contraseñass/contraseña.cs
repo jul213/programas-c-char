@@ -9,7 +9,7 @@ public static Contraseña {
     public static bool UsarMayusculas {get; set;} = true;
     public static bool UsarMinusculas {get; set;} = true;
     public static bool UsarNumeros {get;set;} = true;
-    public static bool UsarSimbolos {get;set,} = true;
+    public static bool UsarSimbolos {get;set;} = true;
     public static string CaracteresObligatorios {get; set;} = ""; 
 
     public string generarContraseña(int longitud){
