@@ -18,6 +18,9 @@ class Program {
 
         Historial.AgregarContraseña(contraseñaGenerada);
 
+        Console.WriteLine("historial de contraseñas");
+        
+
 
         Console.WriteLine("presiona cualquier tecla para salir");
         Console.ReadKey();
