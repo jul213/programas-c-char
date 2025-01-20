@@ -17,7 +17,10 @@ class Historial {
       return new List<string>(historial)
     }
 
-    public static void LimpiarHistorial(){}
+    public static void LimpiarHistorial(){
+      
+      historial.Clear();
+    }
 
   }
 
