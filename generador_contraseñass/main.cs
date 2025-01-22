@@ -11,7 +11,7 @@ class Program {
         Contraseña.UsarMinusculas = true;
         Contraseña.UsarNumeros = true;
         Contraseña.UsarSimbolos = false;
-        Contraseña.CaracteresObligatorios = "AB20";
+        Contraseña.CaracteresObligatorios = "AB80";
 
         String contraseñaGenerada = Contraseña.generarContraseña(longitud);
         Console.WriteLine($"la contraseña generada es: {contraseñaGenerada}");
