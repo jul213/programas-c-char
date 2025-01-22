@@ -20,7 +20,7 @@ class Program {
 
         Console.WriteLine("historial de contraseñas");
         
-
+        Hisstorial.obtenerHistorial();
 
         Console.WriteLine("presiona cualquier tecla para salir");
         Console.ReadKey();
