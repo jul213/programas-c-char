@@ -4,7 +4,7 @@ using historial;
 class Program { 
     public static void main(String []args){
         Console.WriteLine("bienvenido al generador de contraseñas");
-        Console.Write("ingresa la longitud de contraseña");
+        Console.Write("ingresa la longitud de contraseña que quieres tener");
         int longitud = int.Parse(Console.ReadLine());
 
         Contraseña.UsarMayusculas = true;
